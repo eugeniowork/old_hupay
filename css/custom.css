@@ -1,0 +1,724 @@
+/* for universal */
+html {
+	position: relative;
+	min-height: 100%;
+	padding:0;
+	margin: 0;
+}
+
+body {		
+	background-color:#ecf0f5;
+	
+    /*background-color:#e9ecf2; */
+	padding:0;
+	margin: 0;
+	/*background-color:#fff;*/
+
+}
+
+.popover-title {
+	background: #ffff99;
+}
+
+
+
+.hupay-color {
+	color:  #82e0aa ;
+}
+
+
+/* for cursor in view memo */
+#view_memo_info {
+	cursor:pointer;
+}
+
+
+/* for loader */
+.loader {
+  border: 5px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 5px solid #3498db;
+  width: 20px;
+  height: 20px;
+  -webkit-animation: spin .8s linear infinite;
+  animation: spin .8s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+.custom-panel-heading {
+		border:none;
+		height:35px;
+		min-height:35px !important;
+		margin-bottom:0;
+		font-weight:bold;
+		font-size:16px;
+		padding-top:5px;
+		border-bottom: 1px solid #DEDEDE;
+		background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.1) 100%);
+	}
+
+.alert{
+	padding:15px;
+	margin-bottom:20px;
+	border:1px solid transparent;
+	border-radius:4px;
+}
+
+.alert-success {
+	background-color:#dff0d8;
+	border-color:#d6e9c6;
+	color:#468847;
+}
+
+
+/* for readmore */
+.morecontent span {
+    display: none;
+}
+
+
+.footer{
+	position: absolute;
+	bottom: 0;
+	right:0;
+	background-color: #6cf;
+	padding:5px;
+	text-align: right;
+	width: 100%;
+	background: #e9ecf2;
+	border-top:1px solid #BDBDBD;
+}
+
+.content {
+	margin-bottom: 20px;
+}
+
+
+ .hr-payroll-system-footer {
+ 	display: inline-block;
+ 	bottom: 0;
+ 	right:15px;
+ 	margin: 0;
+ 	padding: 0;
+ 	position: absolute;
+ }
+
+.form-control {
+	border:1px solid #99a3a4;
+}
+
+.content-div {
+	margin-top:10px;
+}
+
+.btn-login {
+	margin-right:15px;
+}
+
+/* for MainForm.php but use in universal because it is a header */
+.lloyds-logo {
+	width:30px;
+	float: left;
+	margin-top:-5px;
+}
+
+.content {
+	margin-top:50px;
+}
+
+.navbar {
+	border-width: 0;
+}
+
+.log-out-div {
+	text-align: center;
+	border-bottom:1px solid #BDBDBD;
+	background-color:#3c8dbc;
+	margin-top:-10px;
+}
+
+.log-out-menu{
+	margin-top:22px;
+	width:300px;
+}
+
+
+.notification-menu {
+	margin-top:18px;
+	width:450px;
+	height:300px;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
+.log-out-pic {
+	width:100px;
+	height:100px;
+	border-radius: 100px;
+	z-index: 5;
+	border:3px solid;
+	border-color:rgba(255, 255, 255, 0.2);
+	margin-top:15px;
+}
+
+.log-out-p {
+	z-index: 5;
+	color:rgba(255, 255, 255, 0.8);
+	font-size: 17px;
+	margin-top: 10px;
+}
+
+.log-out-footer {
+	background-color:#f0f0f0;
+	padding:10px;
+	margin-bottom: -5px;
+}
+
+.breadcrumb {
+	border-radius:0;
+	padding:10px 15px;
+	background:#e9ecf2;
+	box-shadow:0 1px 1px rgba(0, 0, 0, .05);
+	margin:0;
+	list-style:none;
+}
+
+.sidebar ul.nav a:hover, .sidebar ul.nav li.parent ul li a:hover{
+	color:#ffffff;
+}
+
+.sidebar ul.nav a:hover, .sidebar ul.nav li.parent ul li:hover{
+	background-color:#566573;
+}
+
+
+.sidebar ul.nav a, .sidebar ul.nav li.parent ul li{
+	background-color: #222d32;
+	
+}
+
+.sidebar ul li.parent {
+	/*border-bottom: 1px solid #626567;*/
+}
+
+
+.sidebar ul.nav a {
+	color:rgba(255, 255, 255, 0.8);
+}
+
+.sidebar ul.nav li.parent ul > li > a > span {
+	color:rgba(255, 255, 255, 0.8);
+	
+}
+
+.sidebar ul.nav li.parent ul > li > a > span:hover {
+	color:#ffffff;
+	
+}
+
+.sidebar ul.nav li.parent ul > li > a {
+	text-decoration: none;
+
+
+}
+
+.sidebar ul.nav li.parent ul > li > a {
+	border:none;
+	display:block;
+	padding-left: 30px;
+	line-height:40px;
+}
+
+
+.sidebar ul.nav ul.children {
+	width:auto;
+	padding: 0;
+	margin: 0;
+	background:#f9f9f9;
+}
+
+.sidebar ul.nav li.divider {
+	margin-top:0px;
+	margin-bottom:5px;
+	border-bottom:2px solid #eee;
+}
+
+.breadcrumb li a:hover {
+	text-decoration: none;
+}
+
+.breadcrumb {
+	margin-left:-15px;
+}
+
+.content-element {
+	margin-top:10px;
+	border:1px solid #BDBDBD;
+
+}
+
+.content-element-2{
+	margin-top: -10px;
+}
+
+textarea {
+	resize:none;
+}
+
+.red-asterisk {
+	float:right;
+	font-size:20px;
+	margin-bottom:-10px;
+	color: #943126 ;
+}
+
+.parent ul.children li a.active-sub-menu {
+	background-color: #1d8348 ;
+}
+
+.panel-success>.custom-panel-heading {
+	background-color:#357ca5;
+	color:#ffffff;
+	text-align: center;
+}
+
+
+
+/* for scrollbar */
+
+::-webkit-scrollbar {
+      /*width:7px;*/
+} /* this targets the default scrollbar (compulsory) */
+
+::-webkit-scrollbar-track {
+     /* background-color: #566573 ;*/
+} /* the new scrollbar will have a flat appearance with the set background color */
+ 
+::-webkit-scrollbar-thumb {
+     /* background-color:#2e86c1 ; */
+} /* this will style the thumb, ignoring the track */
+ 
+::-webkit-scrollbar-button {
+      /*background-color: #1b4f72  ;*/
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+ 
+::-webkit-scrollbar-corner {
+      /*background-color: black;*/
+} /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+
+
+/* customize table tr class design
+table.table>tbody>tr.success>td {
+	background-color:#239b56;
+}
+
+.table-hover>tbody>tr.success:hover>td {
+	background-color:#28b463;
+}
+
+
+.table-hover>tbody>tr.info>td {
+	background-color:#154360;
+}
+
+.table-hover>tbody>tr.info:hover>td {
+	background-color:#21618c;
+} */
+
+
+.action-a:hover {
+	text-decoration: none;
+	color:#23527c;
+}
+
+
+
+/* for add dependent without  = 0 */
+.add-dependent-without {
+	cursor:pointer;
+	color: #2e86c1 ;
+}
+
+.add-dependent-without:hover {
+	text-decoration: underline;
+}
+
+.remove-without-dependent {
+	margin-top:30px;
+	margin-left:-15px;
+}
+
+
+.custom-img-files201 {
+	width:100%;
+	height:100%;
+}
+
+
+/* for xs */
+@media (max-width:767px){
+	
+	.log-out-menu{
+		margin-top:8px;
+		width:300px;
+	}
+
+
+	.notification-menu {
+		margin-top:8px;
+		width:400px;
+	}
+
+	
+
+
+}
+
+
+/* for sm */
+@media (min-width:768px){
+
+	/* for MainForm.php but use in universal because it is a header */
+	.full-name {
+		margin-top:15px;
+	}
+
+	.content {
+		margin-left:23%;
+		width:77%;
+
+	}
+
+	.sidebar{
+		width:23%;
+		position: fixed;
+		border-right:1px solid #BDBDBD;
+		top:50px;
+		bottom: 0;
+		left: 0;
+		z-index: 1000;
+		display:block;
+		margin:0;
+		padding:0;
+		overflow-x:hidden;
+		overflow-y:auto;
+		background-color:#fff;
+		box-shadow:1px 0px 10px rgba(0, 0, 0, .05);
+		background-color:#222d32;
+	}
+	
+	.profile-pic {
+		width:150px;
+		height:150px;
+		border-radius: 100px;
+		border-color:rgba(255, 255, 255, 0.2);
+		border:3px solid;
+		z-index: 5;
+	}
+	
+
+	/* for government logo's */
+	.government-logo {
+		width:20px;
+		height:15px;
+		margin-top:-3px;
+	}
+
+	/* for add new of items */
+	.custom-add-items , .custom-add-items:hover{
+		color:#186a3b;
+		text-decoration: none;
+	}
+
+
+	/*.sidebar a {
+		font-size:13px;
+	}*/
+
+	.view-emp-profile {
+		width:100px;
+		height:100px;
+		border-radius: 100px;
+		border:3px solid;
+	}
+
+	.content-view-emp {
+		margin-top: 10px;
+	}
+
+	.change-profile-div {
+		background-color: #BDBDBD;
+		cursor:pointer;
+		font-size: 12px;
+		margin-bottom: 5px;
+		padding-left:5px;
+		padding-right:5px;
+		display: inline-block;
+	}
+
+	.img-temp-view {
+		width:120px;
+		height:120px;
+		border-radius:100px;
+		border:3px solid;
+		margin-bottom:15px;
+	}
+
+	.profile-image-table {
+		width:25px;
+		height:25px;
+	}
+
+	.logo-company-image-table {
+		width:25px;
+		height:25px;
+		/*border-radius:25px;*/
+	}
+
+
+	/* for notification */
+	.notif-count {
+		font-size:10px;
+		margin-top: -5px;
+		margin-left:-10px;
+		position: absolute;
+		padding:.2em .3em .3em;
+	}
+
+	.error404 {
+		width:200px;
+	
+	}
+
+
+	.events-profile-pic {
+		width:40px;
+		height:40px;
+	}
+
+
+	.events-img {
+		margin-top:5px;
+		margin-bottom:5px;
+		width:230px;
+		height:130px;
+	}
+
+	.notif-label {
+		
+		border-bottom: 1px solid #BDBDBD;
+	}
+
+
+	/* for notification */
+	.notif-list {
+		list-style-type:none;
+		margin-left:-40px;
+	}
+
+	ul.notif-list li {
+		border-bottom:1px solid #BDBDBD;
+	}
+
+	ul.notif-list li div {
+		cursor: pointer;
+		font-size:12px;
+	}
+
+	ul.notif-list li div div img {
+		width:30px;
+		height:30px;
+		float:left;
+		margin-top: 2px;
+	}
+
+	.group-title {
+		margin-top:-23px;
+		font-size:17px;
+	}
+
+	.group-title-net-pay {
+		margin-top:-28px;
+		font-size:17px;
+	}
+
+	.payroll-img {
+
+
+	}
+
+	.custom-form-control {
+		height:30px;
+	}
+
+}
+
+/* for xs */
+@media (min-width:992px){
+	/* for index.php LOG IN FORM */
+	.lbl-username {
+		margin-right:-15px;
+	}
+
+	.sidebar {
+		width:21%;
+	}
+
+	.content {
+		margin-left:21%;
+		width:79%;
+	}
+
+	.profile-pic {
+		width:150px;
+		height:150px;
+		border-radius: 100px;
+		border-color:rgba(255, 255, 255, 0.2);
+		border:3px solid;
+		z-index: 5;
+	}
+
+	/* additional as of 4/17/2017 */
+	.btn-upload-attendance {
+		margin-left:100px;
+		margin-top:5px;
+	}
+
+	.upload-div {
+		margin-top:15px;
+	}
+
+	.upload-profile-pic {
+		margin-top:5px;
+	}
+
+	.confirm-pass {
+	margin-left:-25px;
+	}
+
+	.txt-confirm-pass {
+		width:57%;
+	}
+
+	.div-events-profile {
+		margin-right:-1%;
+	}
+
+	/* for calendar design in events dashboard*/
+
+	.holiday-info {
+		position:fixed;
+		top:50px;
+		bottom: 0;
+		right:1%;
+		width:20%;
+		z-index: 1000;
+		display:block;
+		overflow-x:hidden;
+		overflow-y:auto;
+	}
+
+
+	.event-txt {
+		margin-left:-5%;
+	}
+
+	.add-event-btn {
+		margin-right:4%;
+	}
+
+
+	.update-event-img {
+		width:250px;
+		height:150px;
+	}
+
+
+	.div-uploaded-img {
+		margin-left:-5%;
+		width:100%;
+		padding-bottom: 10px;
+	}
+
+	.no-notif {
+		font-size: 14px;
+
+	}
+
+
+	.label-min-wage {
+		margin-right:-25px;
+	}
+
+	.submit-min-wage {
+		margin-right:25px;
+	}
+
+
+	.unfill-fields-info {
+		width:150px;
+		display: inline-block;
+		position: absolute;
+		z-index: 1050;
+		border:1px solid #BDBDBD;
+		background-color:#ffffff;
+		float:right;
+		margin-left:2px;
+		margin-top:-25px;
+		/*border-radius: 10px;*/
+		/*padding:5px;*/
+	}
+
+	.lloyds-logo-emp-history {
+		width:20px;
+	
+	}
+
+	.txt-pagibig-loan {
+		margin-left:-15px;
+	}
+
+
+	.memo-info {
+		margin-top:8px;
+		margin-left:-15px;
+	}
+
+	.payroll-logo {
+		width:20px;
+	}
+
+
+
+
+}
+
+/* for xs */
+@media (min-width:1200px){
+
+	.sidebar {
+		width:17%;
+	}
+
+	.content {
+		margin-left:17%;
+		width:83%;
+	}
+
+	/* for calendar design in events dashboard*/
+	
+	.div-events-profile {
+		margin-right:-2%;
+	}
+
+}
